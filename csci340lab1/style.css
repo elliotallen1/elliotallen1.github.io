@@ -3,11 +3,9 @@ header{
 }
 
 
-
 .jumbotron {
     display: flex;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
     background-size: cover;
     background-color: black;
 }
@@ -22,4 +20,22 @@ header{
   .jumbotron h4 {
     margin: 0 0 20px;
     color: #fff;
+  }
+
+  .row{
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  img{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin: 50px
   }
