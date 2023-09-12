@@ -1,0 +1,36 @@
+
+
+#box {
+    margin: auto;
+    border: 1px solid black;
+    width: 175px;
+    height: 455px;
+    background-color: black;
+}
+
+circle {
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid grey;
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+}
+
+#redlight{
+}
+
+#yellowlight{
+}
+
+#greenlight{
+}
+
+#changebutton {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 75px;
+    height: 35px;
+}
