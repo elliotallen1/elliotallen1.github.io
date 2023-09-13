@@ -1,23 +1,19 @@
 $(document).ready(function() {
-
-    var memes = fetch("https://api.imgflip.com/get_memes");
-
     $('#image-button').click(function() {
       $.ajax({
-        dataType: "png",
-        url: "https://api.imgflip.com/get_memes",
-
+        dataType: "json",
+        url: "https://random.dog/woof.json",
         success: function(results) {
-            var rand = Math.floor(Math.random * 50)
-            console.log(memes);
-            console.log(rand);
-            $('#meme-image').attr("src", memes[rand][2]);
+          console.log(results["url"]);
+          if (results["url"].endsWith(".mp4")) {
+            $('#dog-image').attr("src", "images.jpeg");
+          } else {
+            $('#dog-image').attr("src", results["url"]).attr("width", 250).attr("height", 250);
+          }
         },
-
         error: function(xhr,status,error) {
           console.log(error);
         }
       });
     });
-
   });
