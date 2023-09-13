@@ -1,3 +1,9 @@
+body {
+    background-color:saddlebrown;
+    color: yellow;
+    font-family: 'New Rocker', cursive;
+}
+
 h1 {
     text-align: center;
     display: center;
