@@ -24,7 +24,7 @@ $(document).ready(function() {
           url: "https://api.breakingbadquotes.xyz/v1/quotes",
           success: function(results) {
             console.log(results[0]["author"]);
-            $("#dog-name").html(results[0]["author"]);
+            $("#dog-name").html("Dog Name: " + results[0]["author"]);
             $("#dog-quote").html(results[0]["quote"]);
 
           },
@@ -33,5 +33,5 @@ $(document).ready(function() {
           }
         });
       });
-      
+
   });
