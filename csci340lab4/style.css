@@ -11,6 +11,10 @@ h1 {
     margin-top: 40px;
 }
 
+#dog-quote {
+    margin-top: 10px;
+}
+
 .container {
     width: 500px;
     display: center;
