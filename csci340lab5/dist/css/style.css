@@ -28,8 +28,9 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 }
 .header-links{display:inline}.header-links li{display:inline-flex}.header-links a:not(.button){font-family:"Mukta", sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.1px;font-weight:700;color:#6F8394;text-transform:uppercase;text-decoration:none;line-height:16px;padding:8px 24px}.header-links a:not(.button):hover,.header-links a:not(.button):active{color:#fff}
 
-.hero{position:relative;
-    text-align:center;
+.hero{
+    position:relative;
+    text-align:left;
     padding-top:40px;
     background:linear-gradient(65deg, #f05787 0, #c21f53 100%);
 }
@@ -37,7 +38,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     .hero-title{
         font-weight:700; 
         -webkit-text-fill-color:#282828;
-        }.hero-paragraph{margin-bottom:32px}.hero-illustration{margin-top:40px;padding-bottom:40px}.hero-illustration img,.hero-illustration svg{width:100%;max-width:320px;height:auto;margin:0 auto;overflow:visible}@media (min-width: 641px){.hero{text-align:left;padding-top:92px;padding-bottom:80px}
+        }.hero-paragraph{margin-bottom:32px}.hero-illustration{margin-top:40px;padding-bottom:40px}.hero-illustration img,.hero-illustration svg{width:100%;max-width:320px;height:500px;margin:0 auto;overflow:visible}@media (min-width: 641px){.hero{text-align:left;padding-top:92px;padding-bottom:80px}
     .hero-inner{display:flex}.hero-copy{padding-right:48px;min-width:512px}.hero-illustration{margin-top:-68px;padding-bottom:0}.hero-illustration img,.hero-illustration svg{max-width:none;width:528px}}@media (min-width: 1025px){.hero-copy{padding-right:88px;min-width:552px}}.features .section-title{margin-bottom:48px}.features-wrap{display:flex;flex-wrap:wrap;justify-content:center;margin-right:-12px;margin-left:-12px}.features-wrap:first-child{margin-top:-12px}.features-wrap:last-child{margin-bottom:-12px}.feature{padding:12px;width:276px;max-width:276px;flex-grow:1}
     .feature-inner{
         height:100%;
